@@ -11,14 +11,11 @@ let info2 = {
   recorrente:"Sim"
 };
 
-console.log(info.personagem+ " e " +info2.personagem);
-console.log(info.origem+ " e " +info2.origem);
-console.log(info.nota+ " e " +info2.nota);
+for (key in  info && info2){
+  if (key !== "recorrente"){
+    console.log(info[key]+ " e " +info2[key]);
+  }
+}
 if(info.recorrente === info2.recorrente){
   console.log("Ambos recorrentes");
 }
-
-// Margarida e Tio Patinhas
-// Pato Donald e Christmas on Bear Mountain, Dell's Four Color Comics #178
-// Namorada do personagem principal nos quadrinhos do Pato Donald e O último MacPatinhas
-// Ambos recorrentes 
