@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Exercício 4.4</title>
+    <title>Exercício 4.5</title>
 
     <style>
       div {
@@ -30,7 +30,7 @@
     </style>
   </head>
   <body>
-    <h1 class="title">Exercício 4.4 - JavaEscripito </h1>
+    <h1 class="title">Exercício 4.5 - JavaEscripito </h1>
     <div class="main-content">
       <div class="center-content">
         <p>Texto padrão do nosso site</p>
@@ -69,6 +69,11 @@
          aux[0].style.background=color;
        }
        changeRedSquare("white");
+       //Ex04:
+       function changeTitle(text){
+        document.getElementsByClassName('title')[0].innerHTML = text;
+       }
+       changeTitle('Exercício 4.5 - JavaScript');
     </script>
   </body>
 </html>
