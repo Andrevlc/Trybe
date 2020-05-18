@@ -51,10 +51,17 @@
  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
         */
+       //Ex01:
        function changeParaText(text){
          document.getElementById('pTexto').innerHTML=text;
        }
-       changeParaText("Criando apps de montão!!!")
+       changeParaText("Criando apps de montão!!!");
+       //Ex02:
+       function changeYellowSquare(color){
+         let aux = document.getElementsByClassName('main-content');
+         aux[0].style.background=color;
+       }
+       changeYellowSquare("green");
     </script>
   </body>
 </html>
