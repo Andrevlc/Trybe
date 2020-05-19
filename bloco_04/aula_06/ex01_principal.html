@@ -73,10 +73,17 @@
       document.querySelector('.center-content').appendChild(p1);
       //Ex05
       let divLeft= document.createElement('div');
+      divLeft.setAttribute('class', 'left-content');
       document.getElementsByClassName('main-content')[0].appendChild(divLeft);
       //Ex06
       let divRight= document.createElement('div');
       document.getElementsByClassName('main-content')[0].appendChild(divRight);
+      //Ex07
+      let img1= document.createElement('img');
+      img1.src='https://picsum.photos/200';
+      img1.setAttribute('class', 'small-image');
+      document.querySelector(".left-content").appendChild(img1);
+
     </script>
   </body>
 </html>
