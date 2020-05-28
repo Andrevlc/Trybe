@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+  <header><h1>Meu formulário</h1></header>
+  
+  <form action="">
+    <fieldset id='dados pessoais'>
+    <div>
+      <label for="">Nome</label>
+      <input type="text" name='nome' size='40' maxlength="40" required='required'>
+    </div>  
+    <div>
+      <label for="">E-mail</label>
+      <input type="text" name='email' size='40' maxlength="50"required='required'>
+    </div> 
+    <div>
+      <label for="">CPF</label>
+      <input type="text" name='cpf' size='11' maxlength='11' required='required'>
+    </div> 
+    <div>
+      <label for="">Endereço</label>
+      <input type="text" name='endereco' size='40' maxlength="200" required='required'>
+    </div> 
+    <div>
+      <label for="">Cidade</label>
+      <input type="text" name='cidade' size='40' maxlength="28" required='required'>
+    </div> 
+    <div>
+      <label for=''>Estado</label>
+      <select name='estados' class='estados'required='required'>
+        <option selected='selected' value=''>Seleciona o estado</option>
+      </select>
+    </div>
+    <div>
+      <label for="">Tipo de residência</label><br>
+      <label for='casa'>
+      <input type='radio' name='time'id='casa' value='1'>Casa</label>
+      <label for='apartamento'>
+      <input type='radio' name='time'id='apartamento' value='2'>Apartamento</label>
+      
+    </div>
+
+
+  </form>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
