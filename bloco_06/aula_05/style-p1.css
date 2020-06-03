@@ -1,0 +1,49 @@
+*{
+  padding: 0px;
+  margin:0px;
+  color:black;
+}
+
+div #centro {
+  width:90vh;
+  height:100vh;
+  background:#333;
+  }
+
+div #topo{
+  width:100vh;
+  height:20vh;
+  background:#f00;
+}
+div #topo h1 {
+  color: white;
+  font-size: 2em;
+}
+.flex-cont{
+  width: 90%;
+  background: yellowgreen;
+  display:flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid red;
+}
+.flex-cont div:nth-child(1){
+  margin-right: 10px;
+  border:2px purple solid ;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:568px){
+  #centro{
+  width:100%;
+  }
+  div #topo{
+    background:yellow;
+  }
+  div #topo h1{
+    color:black;
+  }
+  
+}
